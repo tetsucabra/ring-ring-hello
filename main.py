@@ -6,15 +6,15 @@ pygame.init()
 wn = pygame.display.set_mode((600, 600))
 pygame.display.set_caption('Ring Ring Hello')
 
-playerImg = pygame.image.load('/home/zach/ring-ring-hello/auger.png')
+playerImg = pygame.image.load('~/ring-ring-hello/auger.png')
 def player(x, y):
       wn.blit(playerImg, (x, y))
 
 playerX = 268
 playerY = 268
 
-fixedPoleImg = pygame.image.load("/home/zach/ring-ring-hello/fixed-pole.png")
-brokenPoleImg = pygame.image.load('/home/zach/ring-ring-hello/broken-pole.png')
+fixedPoleImg = pygame.image.load("~/ring-ring-hello/fixed-pole.png")
+brokenPoleImg = pygame.image.load('~/ring-ring-hello/broken-pole.png')
 def poles(img, x, y):
     wn.blit(img, (x, y))
 

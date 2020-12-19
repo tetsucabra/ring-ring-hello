@@ -44,7 +44,7 @@
 
    #+begin_src python 
 
-     playerImg = pygame.image.load('/home/zach/ring-ring-hello/auger.png')
+     playerImg = pygame.image.load('~/ring-ring-hello/auger.png')
      def player(x, y):
            wn.blit(playerImg, (x, y))
 
@@ -57,8 +57,8 @@
 *** Create functions for the poles
 
    #+begin_src python 
-     fixedPoleImg = pygame.image.load("/home/zach/ring-ring-hello/fixed-pole.png")
-     brokenPoleImg = pygame.image.load('/home/zach/ring-ring-hello/broken-pole.png')
+     fixedPoleImg = pygame.image.load("~/ring-ring-hello/fixed-pole.png")
+     brokenPoleImg = pygame.image.load('~/ring-ring-hello/broken-pole.png')
      def poles(img, x, y):
          wn.blit(img, (x, y))
 
